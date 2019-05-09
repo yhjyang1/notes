@@ -1,43 +1,36 @@
 body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,0.8);
+    position: relative;
+    min-height: 100vh;
 }
 
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
+.main {
+    max-width: 728px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 0 24px;
+    font-weight: 400;
 }
 
-ul.posts li {
-    list-style: none;
+.header {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+}
+
+.desc {
+    margin-bottom: 1rem;
+}
+
+.header-link {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.header-link  svg {
+    vertical-align: middle;
 }
