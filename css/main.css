@@ -34,3 +34,60 @@ body {
 .header-link  svg {
     vertical-align: middle;
 }
+
+.repos-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding-inline-start: 0;
+}
+
+.list-item {
+    display: flex;
+    width: 40%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e1e4e8;
+    border-radius: 3px;
+}
+
+.item-list-item-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.flex-items-center {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+.svg1 {
+    margin-right: 8px;
+    color: #586069;
+    vertical-align: text-bottom;
+    display: inline-block;
+    fill: currentColor;
+}
+
+.flex-auto {
+    flex: 1 1 auto;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.pinned-item-desc {
+    flex: 1 0 auto;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    color: #586069;
+}
